@@ -4,6 +4,7 @@ from matplotlib import pyplot as plt
 import os
 
 #test change to learn git actions"
+#branch testing
 
 def symmMetric(image):
 	height, width = image.shape[:2]
