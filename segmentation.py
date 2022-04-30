@@ -3,6 +3,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 import os
 
+#test change to learn git actions"
+
 def symmMetric(image):
 	height, width = image.shape[:2]
 
@@ -138,7 +140,7 @@ def main():
 		#print area
 		if area < maxContourArea:
 			cv2.drawContours(mask, [c], -1, 0, -1)
-	 
+
 	# remove the contours from the image and show the resulting images
 
 	cv2.imshow("unprocessed",im2)
@@ -229,4 +231,3 @@ def main():
 	'''
 
 if __name__ == "__main__": main()
-
