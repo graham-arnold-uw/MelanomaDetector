@@ -4,10 +4,14 @@ from matplotlib import pyplot as plt
 import os
 
 #test change to learn git actions"
+<<<<<<< HEAD
 #conflicting edit (testing branch)1
+=======
+#conflicting edit (testing branch)2
+>>>>>>> test
 
 #divergent edit -> no conflict
-
+#no conflict
 def symmMetric(image):
 	height, width = image.shape[:2]
 
