@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import os
 
 #test change to learn git actions"
-#conflicting edit (testing branch)
+#conflicting edit (testing branch)1
 
 #divergent edit -> no conflict
 
