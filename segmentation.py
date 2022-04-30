@@ -5,6 +5,8 @@ import os
 
 #test change to learn git actions"
 
+#divergent edit -> no conflict
+
 def symmMetric(image):
 	height, width = image.shape[:2]
 
